@@ -1,0 +1,151 @@
+header{
+	line-height: 150%;
+	background-color: gray;
+} 
+
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: blue;
+}
+
+img{
+	width: 30%;
+	height: 30%;
+}
+nav{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+
+a{
+	float: right;
+	text-decoration: none;
+}
+
+nav a {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+}
+video{
+	width: 100%;
+}
+
+/**header a{
+	text-align: right;
+	height: 5px;
+	color: black;
+	background: rgba(220, 29, 220 ,0.3);
+	display: inline-block;
+	text-decoration:none;
+	margin: .5%;
+	padding: 3%;
+	border-radius: .5%;
+}**/
+
+body{
+	background:  	 #ffffff;
+}
+
+.contact{
+	background-color:  #f5f5f0;
+}
+
+
+.james{
+	background-color: #ccffcc; 
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.active{
+	background-color: #ffffff;
+}
+
+.flex-container{
+	display: flex;
+	background-color: #f1f1f1;
+}
+
+li{
+	display: block;
+	padding: 7%;
+	background: rgba(220, 2999, 220 ,0.3);
+
+}
+
+.flex-container  ul {
+	background-color: 
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+footer{
+	text-align: center;
+}
+
+.goods{
+	text-align: center;
+	margin: 10%;
+	
+	padding: 10%;
+	display: block;
+	{
+
